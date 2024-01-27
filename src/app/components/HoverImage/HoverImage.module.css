@@ -1,0 +1,43 @@
+.imageContainer {
+    position: relative;
+    overflow: hidden;
+    transform-style: preserve-3d; /* Added to enable 3D transformations */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s; /* Added opacity transition */
+  }
+  
+  .imageContainer img {
+    transition: transform 0.3s ease, opacity 0.3s; /* Added transform and opacity transitions */
+  }
+  
+  .imageContainer:hover img {
+    transform: scale(1.2) rotateY(360deg); /* Zoom and rotate on hover */
+    opacity: 0.8; /* Adjust opacity as needed */
+    animation: rotateInfinitely 2s linear infinite; /* Adjust the duration as needed */
+  }
+  
+  @keyframes rotateInfinitely {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+  
+  .imageContainer:hover .overlay {
+    opacity: 1;
+  }
+  
