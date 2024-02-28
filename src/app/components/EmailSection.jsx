@@ -70,7 +70,7 @@ const EmailSection = () => {
       <div>
         {emailSubmitted ? (
           <p className="text-green-700 text-sm mt-2">
-            Thanks!! I'll get back to you as soon as I can...
+            Thanks!! I&apos;ll get back to you as soon as I can...
           </p>
         ) : (
           <form className="flex flex-col" onSubmit={handleSubmit}>
