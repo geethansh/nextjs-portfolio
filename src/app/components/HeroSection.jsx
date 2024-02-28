@@ -54,7 +54,7 @@ const HeroSection = () => {
               target="_blank"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-red-600 to-red-300 hover:bg-slate-800 text-white mt-3"
             >
-              <span className="flex items-center bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+              <span className="flex items-center bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2 justify-center">
                 Resume 
                 <div className="ml-2"><Image src={DownloadIcon} alt="" width={25} height={25} /></div>
               </span>

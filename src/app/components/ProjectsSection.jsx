@@ -47,7 +47,7 @@ const projectsData = [
     description: "Developed CNN-based gesture recognition for simulated drone control, integrating movement commands for user interaction.",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/geethansh/Gesture-Controlled-Quadcopter-using-AI",
     previewUrl: "/",
   },
 ];
