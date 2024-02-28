@@ -28,6 +28,7 @@ const ProjectCard = ({
           {showPreviewIcon && ( // Conditionally render the eye icon based on the showPreviewIcon prop
             <Link
               href={previewUrl}
+              target="_blank"
               className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
               title="Preview"
             >
