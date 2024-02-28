@@ -4,7 +4,7 @@ import Image from "next/image";
 import TabButton from "./TabButton";
 import HoverImage from "./HoverImage/HoverImage";
 import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
-import { useNavigate } from "react-router-dom";
+
 
 
 
