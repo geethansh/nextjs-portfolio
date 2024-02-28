@@ -5,10 +5,18 @@ import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import AchievementsSection from "./components/AchievementsSection";
+import Starfield from "./components/Starfield";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-[#121212]">
+      <Starfield
+        starCount={5000}
+        starColor={[255, 0, 0]}
+        speedFactor={0.05}
+        backgroundColor="black"
+      />
+
       <Navbar />
       <div className="container mt-24 mx-auto px-12 py-4">
         <HeroSection />

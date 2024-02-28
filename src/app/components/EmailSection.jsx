@@ -2,8 +2,10 @@
 import React, { useState } from "react";
 import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
+import GmailIcon from "../../../public/icons8-gmail.svg";
 import Link from "next/link";
 import Image from "next/image";
+import Rocket from "./Rocket/Rocket"
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -63,11 +65,12 @@ const EmailSection = () => {
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
         </div>
+        {/* <Rocket/> */}
       </div>
       <div>
         {emailSubmitted ? (
-          <p className="text-green-500 text-sm mt-2">
-            Email sent successfully!
+          <p className="text-green-700 text-sm mt-2">
+            Thanks!! I'll get back to you as soon as I can...
           </p>
         ) : (
           <form className="flex flex-col" onSubmit={handleSubmit}>
@@ -119,7 +122,7 @@ const EmailSection = () => {
             </div>
             <button
               type="submit"
-              className="bg-red-500 hover:bg-red-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
+              className="bg-red-500 hover:red-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out hover:border-white border-2 border-red-500"
             >
               Send Message
             </button>

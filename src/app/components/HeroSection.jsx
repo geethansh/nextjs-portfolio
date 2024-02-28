@@ -28,9 +28,10 @@ const HeroSection = () => {
                 1000,
                 "a Web Developer",
                 1000,
-                "a Backend Developer",
-                1000,
                 "a Java Developer",
+                1000,
+                
+                "a Code Enthusiast",
                 1000,
               ]}
               wrapper="span"
@@ -49,7 +50,7 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="/"
+              href="https://drive.google.com/file/d/1RX8PilhsNYYPx8xL_HXQ0mkLnrpUrCeW/view?usp=drive_link"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-red-600 to-red-300 hover:bg-slate-800 text-white mt-3"
             >
               <span className="flex items-center bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
