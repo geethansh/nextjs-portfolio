@@ -13,7 +13,7 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <div className="grid grid-cols-7 gap-4 flex-">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-4">
         <div>
           <HoverImage src="/images/icons8-java-480.png" alt="Java" />
         </div>
