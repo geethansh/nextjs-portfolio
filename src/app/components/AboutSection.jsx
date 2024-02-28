@@ -142,7 +142,7 @@ const AboutSection = () => {
             About Me
           </h2>
           <p className="text-base lg:text-lg">
-            Hello, I'm a self-taught committed full-stack developer with experience in Java,
+            Hello, I&apos;m a self-taught committed full-stack developer with experience in Java,
             ReactJS, MySQL, NextJS, and Spring Boot, among other technologies.
             Constantly improving my skills, I focus on creating efficient and
             user-friendly applications. I value collaboration and approach every
