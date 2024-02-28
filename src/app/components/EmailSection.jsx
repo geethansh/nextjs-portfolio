@@ -5,7 +5,7 @@ import LinkedinIcon from "../../../public/linkedin-icon.svg";
 import GmailIcon from "../../../public/icons8-gmail.svg";
 import Link from "next/link";
 import Image from "next/image";
-import Rocket from "./Rocket/Rocket"
+
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
