@@ -16,9 +16,10 @@ const achievementsList = [
     postfix: "+",
   },
   {
-    prefix: "~",
+    
     metric: "DSA Problems",
     value: "100",
+    postfix: "+",
   },
   {
     metric: "Lines of Code",

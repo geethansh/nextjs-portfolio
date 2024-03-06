@@ -83,24 +83,34 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2 ">
-        <li className=" flex gap-3">Java Full Stack Developement
+        <li className=" flex gap-3">• Java Full Stack Developement
         <a href="/Certificates/JAVA_FULL_STACK-Geethansh_P-1.png" target="_blank" rel="noopener noreferrer" title="View">
         <EyeIcon className="h-10 w-10 text-[#ADB7BE]  top-1/2 left-1/2 " />
 </a>
         </li>
-        <li className=" flex gap-3">Data Structures and Algorithms with Java
+        <li className=" flex gap-3">• Data Structures and Algorithms with Java
         <a href="javascript:void(0)" rel="noopener noreferrer" title="In Progress...." >
         <EyeIcon className="h-10 w-10 text-[#ADB7BE]  top-1/2 left-1/2 " />
 </a>
         </li>
-        <li className=" flex gap-3">Electronic Arts SWE Virtual Experience
+        <li className=" flex gap-3">• Electronic Arts SWE Virtual Experience
         <a href="/Certificates/a77WE3de8qrxWferQ_Electronic Arts_uyKZMfjqsET4CnAjq_1706640573343_completion_certificate-1.png" target="_blank" rel="noopener noreferrer" title="View">
         <EyeIcon className="h-10 w-10 text-[#ADB7BE]  top-1/2 left-1/2 " />
 </a> </li>
-        <li className=" flex gap-3">J.P. Morgan SWE Virtual Experience
+        <li className=" flex gap-3">• J.P. Morgan SWE Virtual Experience
         <a href="/Certificates/R5iK7HMxJGBgaSbvk_J.P. Morgan_uyKZMfjqsET4CnAjq_1703774645811_completion_certificate-1.png" target="_blank" rel="noopener noreferrer" title="View">
         <EyeIcon className="h-10 w-10 text-[#ADB7BE]  top-1/2 left-1/2 " />
-</a></li>      
+</a></li>    
+
+        <li className=" flex gap-3">• HackerRank Problem Solving
+        <a href="/Certificates/PS.png" target="_blank" rel="noopener noreferrer" title="View">
+        <EyeIcon className="h-10 w-10 text-[#ADB7BE]  top-1/2 left-1/2 " />
+</a></li>
+
+<li className=" flex gap-3">• HackerRank SWE Intern
+<a href="/Certificates/HR SWE INT.png" target="_blank" rel="noopener noreferrer" title="View">
+<EyeIcon className="h-10 w-10 text-[#ADB7BE]  top-1/2 left-1/2 " />
+</a></li>  
       </ul>
     ),
   },
